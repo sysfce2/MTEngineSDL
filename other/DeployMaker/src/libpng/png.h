@@ -974,6 +974,9 @@ PNG_EXPORT(7, void, png_set_compression_buffer_size, (png_structp png_ptr,
 /* Moved from pngconf.h in 1.4.0 and modified to ensure setjmp/longjmp
  * match up.
  */
+//#undef PNG_SETJMP_SUPPORTED  // iOS5
+    
+    
 #ifdef PNG_SETJMP_SUPPORTED
 /* This function returns the jmp_buf built in to *png_ptr.  It must be
  * supplied with an appropriate 'longjmp' function to use on that jmp_buf
@@ -982,6 +985,10 @@ PNG_EXPORT(7, void, png_set_compression_buffer_size, (png_structp png_ptr,
  * allocated by the library - the call will return NULL on a mismatch
  * indicating an ABI mismatch.
  */
+    
+    //png_longjmp(png_ptr, 1);
+    
+    
 PNG_EXPORT(8, jmp_buf*, png_set_longjmp_fn, (png_structp png_ptr,
     png_longjmp_ptr longjmp_fn, size_t jmp_buf_size));
 #  define png_jmpbuf(png_ptr) \
