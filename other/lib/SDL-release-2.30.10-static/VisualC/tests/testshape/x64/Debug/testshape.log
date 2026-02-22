@@ -1,0 +1,36 @@
+﻿  testshape.c
+testshape.obj : error LNK2019: unresolved external symbol SDL_malloc referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_free referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testshape.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_VideoInit referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_VideoQuit referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_SetWindowPosition referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_SetWindowSize referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_LogInfo referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function render
+testshape.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function render
+testshape.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function render
+testshape.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function render
+testshape.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_CreateShapedWindow referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_SetWindowShape referenced in function SDL_main
+testshape.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_strlen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testshape.exe : fatal error LNK1120: 32 unresolved externals

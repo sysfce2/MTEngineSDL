@@ -1,0 +1,12 @@
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/SDL3-static.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/SDL3_test.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/SDL_uclibc.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/uninstall.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/package.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/package_source.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/edit_cache.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/rebuild_cache.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/list_install_components.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/install.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/install/local.dir
+/Users/mars/develop/MTEngineSDL/other/lib/SDL3/build/CMakeFiles/install/strip.dir

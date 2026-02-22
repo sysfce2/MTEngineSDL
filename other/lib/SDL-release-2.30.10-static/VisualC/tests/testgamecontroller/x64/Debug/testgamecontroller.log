@@ -1,0 +1,118 @@
+﻿  Copying axis.bmp
+          1 file(s) copied.
+  Copying button.bmp
+          1 file(s) copied.
+  Copying controllermap.bmp
+          1 file(s) copied.
+  Copying controllermap_back.bmp
+          1 file(s) copied.
+  testgamecontroller.c
+  testutils.c
+  Generating Code...
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_malloc referenced in function UpdateWindowTitle
+testutils.obj : error LNK2001: unresolved external symbol SDL_malloc
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_realloc referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_free referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_abs referenced in function VirtualControllerMouseMotion
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function CyclePS5TriggerEffect
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_memcpy referenced in function DelController
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function UpdateWindowTitle
+testutils.obj : error LNK2001: unresolved external symbol SDL_strlen
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_strlcpy referenced in function UpdateWindowTitle
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_strlcat referenced in function UpdateWindowTitle
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_ceil referenced in function ConvertAxisToRumble
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_GetError
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_SetWindowTitle referenced in function UpdateWindowTitle
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GetModState referenced in function ShowingFront
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_NumJoysticks referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickNameForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickPathForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetDevicePlayerIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetDeviceGUID referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetDeviceVendor referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetDeviceProduct referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetDeviceInstanceID referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickOpen referenced in function OpenVirtualController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickAttachVirtualEx referenced in function OpenVirtualController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickDetachVirtual referenced in function CloseVirtualController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickIsVirtual referenced in function CloseVirtualController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickSetVirtualAxis referenced in function VirtualControllerMouseMotion
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickSetVirtualButton referenced in function VirtualControllerMouseMotion
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickGetGUIDString referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickInstanceID referenced in function FindController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_JoystickClose referenced in function CloseVirtualController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerAddMappingsFromRW referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerNumMappings referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerMappingForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerMapping referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_IsGameController referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerNameForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerPathForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerTypeForIndex referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerOpen referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerName referenced in function UpdateWindowTitle
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerPath referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetType referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerSetPlayerIndex referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetFirmwareVersion referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetSerial referenced in function UpdateWindowTitle
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetJoystick referenced in function FindController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetStringForAxis referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetAxis referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetStringForButton referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetButton referenced in function ShowingFront
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerHasSensor referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerSetSensorEnabled referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetSensorDataRate referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerRumble referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerRumbleTriggers referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerHasRumble referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerHasRumbleTriggers referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerSetLED referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerSendEffect referenced in function CyclePS5TriggerEffect
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_GameControllerClose referenced in function AddController
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_PumpEvents referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_PeepEvents referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_SetHint referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_LogError
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RenderSetLogicalSize referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function loop
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+testgamecontroller.obj : error LNK2019: unresolved external symbol SDL_QuitSubSystem referenced in function SDL_main
+testutils.obj : error LNK2019: unresolved external symbol SDL_strdup referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_Error referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_RWclose referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_GetBasePath referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function LoadTexture
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testgamecontroller.exe : fatal error LNK1120: 96 unresolved externals

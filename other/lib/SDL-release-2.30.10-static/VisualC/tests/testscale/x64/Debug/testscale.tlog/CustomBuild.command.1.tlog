@@ -1,0 +1,4 @@
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\ICON.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\icon.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testscale\\"
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\SAMPLE.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\sample.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testscale\\"

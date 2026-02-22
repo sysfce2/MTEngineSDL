@@ -1,0 +1,35 @@
+﻿  testplatform.c
+testplatform.obj : error LNK2019: unresolved external symbol SDL_GetPlatform referenced in function SDL_main
+testplatform.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+testplatform.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function TestAssertions
+testplatform.obj : error LNK2019: unresolved external symbol SDL_GetAssertionReport referenced in function TestAssertions
+testplatform.obj : error LNK2019: unresolved external symbol SDL_GetCPUCount referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_GetCPUCacheLineSize referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasRDTSC referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasAltiVec referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasMMX referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_Has3DNow referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasSSE referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasSSE2 referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasSSE3 referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasSSE41 referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasSSE42 referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasAVX referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasAVX2 referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasAVX512F referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasARMSIMD referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasNEON referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasLSX referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_HasLASX referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_GetSystemRAM referenced in function TestCPUInfo
+testplatform.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testplatform.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_free referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_strlen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testplatform.exe : fatal error LNK1120: 32 unresolved externals

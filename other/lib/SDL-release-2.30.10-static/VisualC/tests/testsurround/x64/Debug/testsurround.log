@@ -1,0 +1,30 @@
+﻿  testsurround.c
+testsurround.obj : error LNK2019: unresolved external symbol SDL_getenv referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function fill_buffer
+testsurround.obj : error LNK2019: unresolved external symbol SDL_sin referenced in function fill_buffer
+testsurround.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function get_channel_name
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetNumAudioDrivers referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetAudioDriver referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetCurrentAudioDriver referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetNumAudioDevices referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetAudioDeviceName referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_GetAudioDeviceSpec referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_OpenAudioDevice referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_PauseAudioDevice referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_CloseAudioDevice referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+testsurround.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_free referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_strlen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testsurround.exe : fatal error LNK1120: 27 unresolved externals

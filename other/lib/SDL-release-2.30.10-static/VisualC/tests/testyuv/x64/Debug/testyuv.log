@@ -1,0 +1,63 @@
+﻿  Copying testyuv.bmp
+          1 file(s) copied.
+  testyuv.c
+  testyuv_cvt.c
+  Generating Code...
+testyuv.obj : error LNK2019: unresolved external symbol SDL_malloc referenced in function verify_yuv_data
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_malloc
+testyuv.obj : error LNK2019: unresolved external symbol SDL_calloc referenced in function SDL_main
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_calloc
+testyuv.obj : error LNK2019: unresolved external symbol SDL_free referenced in function verify_yuv_data
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testyuv.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function generate_test_pattern
+testyuv.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_strncmp referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_GetPixelFormatName referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceWithFormat referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function run_automated_tests
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_FreeSurface
+testyuv.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_ConvertSurfaceFormat referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_ConvertPixels referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_SetYUVConversionMode referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_GetYUVConversionModeForResolution referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_LogInfo referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_CreateTexture referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDL_main
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+testyuv.obj : error LNK2019: unresolved external symbol SDL_UpdateTexture referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function SDL_main
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_RenderCopy
+testyuv.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+testyuv.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+testyuv_cvt.obj : error LNK2019: unresolved external symbol SDL_floorf referenced in function RGBtoYUV
+testyuv_cvt.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function ConvertRGBtoPlanar2x2
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_realloc referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_strlen referenced in function SDLTest_DrawString
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_vsnprintf referenced in function SDLTest_TextWindowAddText
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_GetRenderDrawColor referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDLTest_CleanupTextDrawing
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testyuv.exe : fatal error LNK1120: 47 unresolved externals

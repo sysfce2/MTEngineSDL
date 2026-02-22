@@ -1,0 +1,587 @@
+﻿  testautomation.c
+  testautomation_audio.c
+  testautomation_clipboard.c
+  testautomation_events.c
+  testautomation_guid.c
+  testautomation_hints.c
+  testautomation_joystick.c
+  testautomation_keyboard.c
+  testautomation_log.c
+  testautomation_main.c
+  testautomation_math.c
+  testautomation_mouse.c
+  testautomation_pixels.c
+  testautomation_platform.c
+  testautomation_rect.c
+  testautomation_render.c
+  testautomation_rwops.c
+  testautomation_sdltest.c
+  testautomation_stdlib.c
+  testautomation_surface.c
+  Generating Code...
+  Compiling...
+  testautomation_syswm.c
+  testautomation_timer.c
+  testautomation_video.c
+  testautomation_subsystems.c
+  Generating Code...
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_free
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_free
+testautomation_keyboard.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_pixels.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_sdltest.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_clipboard.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation_hints.obj : error LNK2001: unresolved external symbol SDL_free
+testautomation.obj : error LNK2019: unresolved external symbol SDL_strdup referenced in function SDL_main
+testautomation_clipboard.obj : error LNK2001: unresolved external symbol SDL_strdup
+testautomation_hints.obj : error LNK2001: unresolved external symbol SDL_strdup
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_strdup
+testautomation.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_atoi
+testautomation.obj : error LNK2019: unresolved external symbol SDL_strcasecmp referenced in function SDL_main
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_strcasecmp
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strcasecmp
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_strcasecmp
+testautomation.obj : error LNK2019: unresolved external symbol SDL_sscanf referenced in function SDL_main
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_sscanf
+testautomation.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+testautomation_events.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_PollEvent
+testautomation.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+testautomation.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_Delay
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_Delay
+testautomation.obj : error LNK2001: unresolved external symbol SDL_Delay
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_Delay
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_Delay
+testautomation_timer.obj : error LNK2001: unresolved external symbol SDL_Delay
+SDL2test.lib(SDL_test_fuzzer.obj) : error LNK2001: unresolved external symbol SDL_malloc
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_malloc
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_malloc
+testautomation_pixels.obj : error LNK2001: unresolved external symbol SDL_malloc
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_malloc
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_malloc
+SDL2test.lib(SDL_test_assert.obj) : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_fuzzer.obj) : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_log.obj) : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_memset
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_memset
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_memset
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_memset
+testautomation_guid.obj : error LNK2001: unresolved external symbol SDL_memset
+testautomation_joystick.obj : error LNK2001: unresolved external symbol SDL_memset
+testautomation_rwops.obj : error LNK2001: unresolved external symbol SDL_memset
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_strlcpy referenced in function _audio_testCallback
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_strlcpy
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strlcpy
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlcpy
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_strlcat referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strlcat
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlcat
+testautomation_stdlib.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function stdlib_snprintf
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_strcmp
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_pixels.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_sdltest.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_joystick.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_keyboard.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_main.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_clipboard.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_guid.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_hints.obj : error LNK2001: unresolved external symbol SDL_strcmp
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_fabs referenced in function sine_wave_sample
+testautomation_math.obj : error LNK2001: unresolved external symbol SDL_fabs
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_log10 referenced in function sine_wave_sample
+testautomation_math.obj : error LNK2001: unresolved external symbol SDL_log10
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_sin referenced in function sine_wave_sample
+testautomation_math.obj : error LNK2001: unresolved external symbol SDL_sin
+testautomation_timer.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_GetError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetError
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_sdltest.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_keyboard.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_main.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_pixels.obj : error LNK2001: unresolved external symbol SDL_GetError
+testautomation_sdltest.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_keyboard.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_pixels.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_ClearError
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetNumAudioDrivers referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetNumAudioDrivers
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetAudioDriver referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetAudioDriver
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_AudioInit referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_AudioInit
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_AudioQuit referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_AudioQuit
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetCurrentAudioDriver referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetCurrentAudioDriver
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_OpenAudio referenced in function _audio_testCallback
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_OpenAudio
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetNumAudioDevices referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetAudioDeviceName referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_OpenAudioDevice referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetAudioStatus referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetAudioDeviceStatus referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_PauseAudio referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_BuildAudioCVT referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_ConvertAudio referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_LockAudioDevice referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_UnlockAudioDevice referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_CloseAudio referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_CloseAudioDevice referenced in function _audio_testCallback
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetHint referenced in function _audio_testCallback
+testautomation_hints.obj : error LNK2001: unresolved external symbol SDL_GetHint
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceCounter referenced in function sine_wave_sample
+testautomation_timer.obj : error LNK2001: unresolved external symbol SDL_GetPerformanceCounter
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_GetPerformanceCounter
+SDL2test.lib(SDL_test_random.obj) : error LNK2001: unresolved external symbol SDL_GetPerformanceCounter
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_GetPerformanceFrequency referenced in function sine_wave_sample
+testautomation_timer.obj : error LNK2001: unresolved external symbol SDL_GetPerformanceFrequency
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_GetPerformanceFrequency
+testautomation_subsystems.obj : error LNK2001: unresolved external symbol SDL_InitSubSystem
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_InitSubSystem
+testautomation_audio.obj : error LNK2001: unresolved external symbol SDL_InitSubSystem
+testautomation_joystick.obj : error LNK2001: unresolved external symbol SDL_InitSubSystem
+testautomation_main.obj : error LNK2001: unresolved external symbol SDL_InitSubSystem
+testautomation_timer.obj : error LNK2001: unresolved external symbol SDL_InitSubSystem
+testautomation_audio.obj : error LNK2019: unresolved external symbol SDL_QuitSubSystem referenced in function _audio_testCallback
+testautomation_joystick.obj : error LNK2001: unresolved external symbol SDL_QuitSubSystem
+testautomation_main.obj : error LNK2001: unresolved external symbol SDL_QuitSubSystem
+testautomation_subsystems.obj : error LNK2001: unresolved external symbol SDL_QuitSubSystem
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_clipboard.obj : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_rwops.obj : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_sdltest.obj : error LNK2001: unresolved external symbol SDL_strlen
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_SetClipboardText referenced in function clipboard_testSetClipboardText
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetClipboardText
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_GetClipboardText referenced in function clipboard_testGetClipboardText
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetClipboardText
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_HasClipboardText referenced in function clipboard_testHasClipboardText
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_SetPrimarySelectionText referenced in function clipboard_testSetPrimarySelectionText
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_GetPrimarySelectionText referenced in function clipboard_testGetPrimarySelectionText
+testautomation_clipboard.obj : error LNK2019: unresolved external symbol SDL_HasPrimarySelectionText referenced in function clipboard_testHasPrimarySelectionText
+testautomation_events.obj : error LNK2019: unresolved external symbol SDL_PumpEvents referenced in function _events_sampleNullEventFilter
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_PumpEvents
+testautomation_events.obj : error LNK2019: unresolved external symbol SDL_PushEvent referenced in function _events_sampleNullEventFilter
+testautomation_events.obj : error LNK2019: unresolved external symbol SDL_AddEventWatch referenced in function _events_sampleNullEventFilter
+testautomation_events.obj : error LNK2019: unresolved external symbol SDL_DelEventWatch referenced in function _events_sampleNullEventFilter
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+testautomation_guid.obj : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_compare.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+testautomation_guid.obj : error LNK2019: unresolved external symbol SDL_memcmp referenced in function upper_lower_to_bytestring
+testautomation_rect.obj : error LNK2001: unresolved external symbol SDL_memcmp
+testautomation_rwops.obj : error LNK2001: unresolved external symbol SDL_memcmp
+testautomation_guid.obj : error LNK2019: unresolved external symbol SDL_GUIDToString referenced in function upper_lower_to_bytestring
+testautomation_guid.obj : error LNK2019: unresolved external symbol SDL_GUIDFromString referenced in function upper_lower_to_bytestring
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_setenv referenced in function hints_testHintChanged
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_setenv
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_SetHintWithPriority referenced in function hints_testHintChanged
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_SetHint referenced in function hints_testHintChanged
+testautomation_log.obj : error LNK2001: unresolved external symbol SDL_SetHint
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_SetHint
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetHint
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_ResetHint referenced in function hints_testHintChanged
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_AddHintCallback referenced in function hints_testHintChanged
+testautomation_hints.obj : error LNK2019: unresolved external symbol SDL_DelHintCallback referenced in function hints_testHintChanged
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickOpen referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickAttachVirtualEx referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickDetachVirtual referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickIsVirtual referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickSetVirtualButton referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickName referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetVendor referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetProduct referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetProductVersion referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetFirmwareVersion referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetSerial referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetType referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickNumAxes referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickNumBalls referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickNumHats referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickNumButtons referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickUpdate referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickGetButton referenced in function TestVirtualJoystick
+testautomation_joystick.obj : error LNK2019: unresolved external symbol SDL_JoystickClose referenced in function TestVirtualJoystick
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetCurrentVideoDriver referenced in function SDLTest_CommonInit
+testautomation_keyboard.obj : error LNK2001: unresolved external symbol SDL_GetCurrentVideoDriver
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_GetCurrentVideoDriver
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_GetCurrentVideoDriver
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_GetCurrentVideoDriver
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardFocus referenced in function keyboard_getKeyboardFocus
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetKeyboardFocus
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function keyboard_getKeyboardState
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetModState referenced in function _checkInvalidScancodeError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetModState
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_SetModState referenced in function _checkInvalidScancodeError
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetKeyFromScancode referenced in function _checkInvalidScancodeError
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromKey referenced in function _testSetTextInputRect
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetScancodeName referenced in function _checkInvalidScancodeError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetScancodeName
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetScancodeFromName referenced in function _testSetTextInputRect
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetKeyName referenced in function _checkInvalidScancodeError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetKeyName
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_GetKeyFromName referenced in function keyboard_getKeyFromName
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_StartTextInput referenced in function _checkInvalidScancodeError
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_StopTextInput referenced in function _checkInvalidScancodeError
+testautomation_keyboard.obj : error LNK2019: unresolved external symbol SDL_SetTextInputRect referenced in function _testSetTextInputRect
+testautomation_log.obj : error LNK2019: unresolved external symbol SDL_LogMessage referenced in function DisableTestLog
+SDL2test.lib(SDL_test_log.obj) : error LNK2001: unresolved external symbol SDL_LogMessage
+testautomation_log.obj : error LNK2019: unresolved external symbol SDL_LogGetOutputFunction referenced in function EnableTestLog
+testautomation_log.obj : error LNK2019: unresolved external symbol SDL_LogSetOutputFunction referenced in function EnableTestLog
+testautomation_main.obj : error LNK2019: unresolved external symbol SDL_SetError referenced in function main_testSetError
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_SetError
+SDL2test.lib(SDL_test_fuzzer.obj) : error LNK2001: unresolved external symbol SDL_SetError
+testautomation_main.obj : error LNK2019: unresolved external symbol SDL_WasInit referenced in function main_testInitQuitSubSystem
+testautomation_platform.obj : error LNK2001: unresolved external symbol SDL_WasInit
+testautomation_subsystems.obj : error LNK2001: unresolved external symbol SDL_WasInit
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_WasInit
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_acos referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_asin referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_atan referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_atan2 referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_ceil referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_copysign referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_cos referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_exp referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_floor referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_trunc referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_fmod referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_log referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_pow referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_round referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_scalbn referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_sqrt referenced in function helper_range
+testautomation_math.obj : error LNK2019: unresolved external symbol SDL_tan referenced in function helper_range
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_FreeSurface
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_FreeSurface
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDLTest_CommonInit
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+testautomation_syswm.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDLTest_CommonInit
+testautomation_mouse.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+testautomation_render.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+testautomation_syswm.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_GetMouseFocus referenced in function _destroyMouseSuiteTestWindow
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function _mouseStateCheck
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetMouseState
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_GetRelativeMouseState referenced in function _mouseStateCheck
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_WarpMouseInWindow referenced in function _destroyMouseSuiteTestWindow
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_SetRelativeMouseMode referenced in function _changeCursorVisibility
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetRelativeMouseMode
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_GetRelativeMouseMode referenced in function _changeCursorVisibility
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetRelativeMouseMode
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_CreateCursor referenced in function _initArrowCursor
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_CreateColorCursor referenced in function _initArrowCursor
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_SetCursor referenced in function _changeCursorVisibility
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_GetCursor referenced in function _changeCursorVisibility
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_FreeCursor referenced in function _initArrowCursor
+testautomation_mouse.obj : error LNK2019: unresolved external symbol SDL_ShowCursor referenced in function _changeCursorVisibility
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_GetPixelFormatName referenced in function pixels_getPixelFormatName
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetPixelFormatName
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_AllocFormat referenced in function pixels_allocFreeFormat
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_AllocFormat
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_FreeFormat referenced in function pixels_allocFreeFormat
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_FreeFormat
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_AllocPalette referenced in function pixels_allocFreePalette
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_FreePalette referenced in function pixels_allocFreePalette
+testautomation_pixels.obj : error LNK2019: unresolved external symbol SDL_CalculateGammaRamp referenced in function pixels_calcGammaRamp
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetPlatform referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetCPUCount referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetCPUCacheLineSize referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasRDTSC referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasAltiVec referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasMMX referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_Has3DNow referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasSSE referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasSSE2 referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasSSE3 referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasSSE41 referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasSSE42 referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_HasAVX referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetPowerInfo referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetVersion referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_GetRevision referenced in function _compareSizeOfType
+testautomation_platform.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function _compareSizeOfType
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_fabsf referenced in function SDL_FRectEqualsEpsilon
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_HasIntersection referenced in function _validateFRectEqualsResults
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_IntersectRect referenced in function _validateFRectEqualsResults
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_UnionRect referenced in function _validateFRectEqualsResults
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_EnclosePoints referenced in function _validateFRectEqualsResults
+testautomation_rect.obj : error LNK2019: unresolved external symbol SDL_IntersectRectAndLine referenced in function _validateIntersectRectAndLineResults
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceFrom referenced in function _compare
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceFrom
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_GetNumRenderDrivers referenced in function _isSupported
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetNumRenderDrivers
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function _isSupported
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_CreateRenderer
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function _loadTestFace
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function _isSupported
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function _hasTexColor
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_SetTextureColorMod
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_GetTextureColorMod referenced in function _hasTexColor
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function _hasTexAlpha
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_SetTextureAlphaMod
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_GetTextureAlphaMod referenced in function _hasTexAlpha
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_SetTextureBlendMode referenced in function _testBlitBlendMode
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_GetRenderDrawColor referenced in function _hasDrawColor
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_GetRenderDrawColor
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawBlendMode referenced in function _clearScreen
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_GetRenderDrawBlendMode referenced in function _hasBlendModes
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderDrawPoint referenced in function _isSupported
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLine referenced in function _isSupported
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function _isSupported
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function _isSupported
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_RenderCopy
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderReadPixels referenced in function _compare
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_RenderReadPixels
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function _clearScreen
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function _hasTexAlpha
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_DestroyTexture
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_DestroyTexture
+testautomation_render.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function _isSupported
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_strncmp referenced in function _testGenericRWopsValidations
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_strncmp
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function _testGenericRWopsValidations
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_RWFromFile
+SDL2test.lib(SDL_test_compare.obj) : error LNK2001: unresolved external symbol SDL_RWFromFile
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWFromMem referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWFromConstMem referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_AllocRW referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_FreeRW referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWseek referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWread referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWwrite referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_RWclose referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadLE16 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadBE16 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadLE32 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadBE32 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadLE64 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_ReadBE64 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteLE16 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteBE16 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteLE32 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteBE32 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteLE64 referenced in function _testGenericRWopsValidations
+testautomation_rwops.obj : error LNK2019: unresolved external symbol SDL_WriteBE64 referenced in function _testGenericRWopsValidations
+testautomation_sdltest.obj : error LNK2019: unresolved external symbol SDL_iscntrl referenced in function sdltest_randomAsciiString
+testautomation_stdlib.obj : error LNK2019: unresolved external symbol SDL_getenv referenced in function stdlib_getsetenv
+testautomation_video.obj : error LNK2001: unresolved external symbol SDL_getenv
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_snprintf
+testautomation_stdlib.obj : error LNK2001: unresolved external symbol SDL_snprintf
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_snprintf
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_snprintf
+SDL2test.lib(SDL_test_compare.obj) : error LNK2001: unresolved external symbol SDL_snprintf
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function _AssertFileExist
+SDL2test.lib(SDL_test_assert.obj) : error LNK2001: unresolved external symbol SDL_ReportAssertion
+SDL2test.lib(SDL_test_compare.obj) : error LNK2001: unresolved external symbol SDL_ReportAssertion
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_ReportAssertion
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_MapRGBA referenced in function _clearTestSurface
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function stat
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceWithFormat referenced in function _AssertFileExist
+SDL2test.lib(SDL_test_imagePrimitives.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+SDL2test.lib(SDL_test_imagePrimitivesBlend.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+testautomation_surface.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+SDL2test.lib(SDL_test_imageFace.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+SDL2test.lib(SDL_test_imageBlit.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+SDL2test.lib(SDL_test_imageBlitBlend.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurfaceWithFormatFrom
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function _AssertFileExist
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_LoadBMP_RW
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_SaveBMP_RW referenced in function _AssertFileExist
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SaveBMP_RW
+SDL2test.lib(SDL_test_compare.obj) : error LNK2001: unresolved external symbol SDL_SaveBMP_RW
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function _testBlitBlendMode
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetColorKey
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_SetSurfaceColorMod referenced in function _testBlitBlendMode
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_SetSurfaceAlphaMod referenced in function _testBlitBlendMode
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_SetSurfaceBlendMode referenced in function stat
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_GetSurfaceBlendMode referenced in function stat
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_ConvertSurface referenced in function _AssertFileExist
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function _clearTestSurface
+testautomation_surface.obj : error LNK2019: unresolved external symbol SDL_UpperBlit referenced in function _testBlitBlendMode
+testautomation_syswm.obj : error LNK2019: unresolved external symbol SDL_GetWindowWMInfo referenced in function syswm_getWindowWMInfo
+testautomation_timer.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function timer_delayAndGetTicks
+testautomation_timer.obj : error LNK2019: unresolved external symbol SDL_AddTimer referenced in function _timerTestCallback
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_AddTimer
+testautomation_timer.obj : error LNK2019: unresolved external symbol SDL_RemoveTimer referenced in function _timerTestCallback
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_RemoveTimer
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetNumVideoDisplays referenced in function _destroyVideoSuiteTestWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetNumVideoDisplays
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetDisplayBounds referenced in function getSizeFromEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetDisplayBounds
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetDisplayUsableBounds referenced in function getSizeFromEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetDisplayUsableBounds
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetNumDisplayModes referenced in function _destroyVideoSuiteTestWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetNumDisplayModes
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetDisplayMode referenced in function _destroyVideoSuiteTestWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetDisplayMode
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetClosestDisplayMode referenced in function _destroyVideoSuiteTestWindow
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowDisplayIndex referenced in function getSizeFromEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowDisplayIndex
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowDisplayMode referenced in function _destroyVideoSuiteTestWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowDisplayMode
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowPixelFormat referenced in function _setAndCheckWindowKeyboardGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowID referenced in function _setAndCheckWindowKeyboardGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowFromID referenced in function _setAndCheckWindowKeyboardGrabState
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowFromID
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowFlags referenced in function _destroyVideoSuiteTestWindow
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowFlags
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowData referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowData referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowPosition referenced in function getSizeFromEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowPosition
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowPosition referenced in function getSizeFromEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowPosition
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowSize referenced in function _checkInvalidParameterError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowSize
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowSize referenced in function _checkInvalidParameterError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowSize
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowMinimumSize referenced in function _checkInvalidParameterError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowMinimumSize
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowMinimumSize referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowMaximumSize referenced in function _checkInvalidParameterError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowMaximumSize
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowMaximumSize referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_RaiseWindow referenced in function _setAndCheckWindowKeyboardGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowFullscreen referenced in function _checkInvalidParameterError
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowFullscreen
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_HasWindowSurface referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_DestroyWindowSurface referenced in function _checkInvalidParameterError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowGrab referenced in function _setAndCheckWindowKeyboardGrabState
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowGrab
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowKeyboardGrab referenced in function _setAndCheckWindowKeyboardGrabState
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_SetWindowKeyboardGrab
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_SetWindowMouseGrab referenced in function _setAndCheckWindowMouseGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowGrab referenced in function _setAndCheckWindowMouseGrabState
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowGrab
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowKeyboardGrab referenced in function _setAndCheckWindowKeyboardGrabState
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowKeyboardGrab
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowMouseGrab referenced in function _setAndCheckWindowMouseGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetGrabbedWindow referenced in function _setAndCheckWindowMouseGrabState
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowBrightness referenced in function _destroyVideoSuiteTestWindow
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_GetWindowGammaRamp referenced in function _checkInvalidWindowError
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_IsScreenSaverEnabled referenced in function _destroyVideoSuiteTestWindow
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_EnableScreenSaver referenced in function _destroyVideoSuiteTestWindow
+testautomation_video.obj : error LNK2019: unresolved external symbol SDL_DisableScreenSaver referenced in function _destroyVideoSuiteTestWindow
+testautomation_subsystems.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function subsystemsSetUp
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_Quit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_calloc referenced in function SDLTest_CommonCreateState
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_calloc
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_isdigit referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_atof referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_vsnprintf referenced in function SDL_snprintfcat
+SDL2test.lib(SDL_test_assert.obj) : error LNK2001: unresolved external symbol SDL_vsnprintf
+SDL2test.lib(SDL_test_log.obj) : error LNK2001: unresolved external symbol SDL_vsnprintf
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_vsnprintf
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Error referenced in function SDLTest_CommonCreateState
+SDL2test.lib(SDL_test_harness.obj) : error LNK2001: unresolved external symbol SDL_Error
+SDL2test.lib(SDL_test_fuzzer.obj) : error LNK2001: unresolved external symbol SDL_Error
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_PixelFormatEnumToMasks referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumVideoDrivers referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetVideoDriver referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_VideoInit referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_VideoQuit referenced in function SDLTest_CommonQuit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayName referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayDPI referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayOrientation referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDesktopDisplayMode referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetCurrentDisplayMode referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowDisplayMode referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowIcon referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowBordered referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowAlwaysOnTop referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_ShowWindow referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_MaximizeWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_MinimizeWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RestoreWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowMouseRect referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowOpacity referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowOpacity referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowHitTest referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_FlashWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetGlobalMouseState referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CaptureMouse referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_LogSetAllPriority referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Log referenced in function SDLTest_CommonLogUsage
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_Log
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function SDLTest_CommonEvent
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_ShowSimpleMessageBox
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRenderDriverInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRendererInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRendererOutputSize referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetLogicalSize referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetLogicalSize referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetViewport referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetClipRect referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetClipRect referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetScale referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetScale referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Direct3D9GetAdapterIndex referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DXGIGetOutputInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_compare.obj) : error LNK2019: unresolved external symbol SDL_GetRGBA referenced in function SDLTest_CompareSurfaces
+SDL2test.lib(SDL_test_compare.obj) : error LNK2019: unresolved external symbol SDL_LockSurface referenced in function SDLTest_CompareSurfaces
+SDL2test.lib(SDL_test_compare.obj) : error LNK2019: unresolved external symbol SDL_UnlockSurface referenced in function SDLTest_CompareSurfaces
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_realloc referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_GetMemoryFunctions referenced in function SDLTest_TrackAllocations
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_SetMemoryFunctions referenced in function SDLTest_TrackAllocations
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_GetNumAllocations referenced in function SDLTest_TrackAllocations
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testautomation.exe : fatal error LNK1120: 325 unresolved externals

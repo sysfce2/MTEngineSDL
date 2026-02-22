@@ -1,0 +1,8 @@
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\AXIS.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\axis.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testgamecontroller\\"
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\BUTTON.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\button.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testgamecontroller\\"
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\CONTROLLERMAP.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\controllermap.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testgamecontroller\\"
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\CONTROLLERMAP_BACK.BMP
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\controllermap_back.bmp" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testgamecontroller\\"

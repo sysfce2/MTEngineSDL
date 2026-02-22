@@ -1,0 +1,50 @@
+﻿  checkkeys.c
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_free referenced in function loop
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function PrintText
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function PrintText
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_vsnprintf referenced in function print_string
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_vsnprintf
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_GetModState referenced in function print_modifiers
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_GetScancodeName referenced in function PrintKey
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_GetKeyName referenced in function PrintKey
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_StartTextInput referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_IsTextInputActive referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_StopTextInput referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_PumpEvents referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_SetHint referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function PrintModifierState
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function loop
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+checkkeys.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_malloc referenced in function SDLTest_TextWindowCreate
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_calloc referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_realloc referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_GetRenderDrawColor referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDLTest_CleanupTextDrawing
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\checkkeys.exe : fatal error LNK1120: 41 unresolved externals

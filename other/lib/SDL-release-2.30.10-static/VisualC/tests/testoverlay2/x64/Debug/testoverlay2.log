@@ -1,0 +1,58 @@
+﻿  Copying moose.dat
+          1 file(s) copied.
+  testoverlay2.c
+  testutils.c
+  testyuv_cvt.c
+  Generating Code...
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_malloc referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_malloc
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_free referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_GetError
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RWread referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RWclose referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_RWclose
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_GetYUVConversionModeForResolution referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_EventState referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function PrintUsage
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_LogError
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_CreateTexture referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_UpdateTexture referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RenderSetViewport referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function loop
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+testoverlay2.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function quit
+testutils.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function GetNearbyFilename
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testutils.obj : error LNK2019: unresolved external symbol SDL_strdup referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_Error referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_GetBasePath referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function LoadTexture
+testyuv_cvt.obj : error LNK2019: unresolved external symbol SDL_floorf referenced in function RGBtoYUV
+testyuv_cvt.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function ConvertRGBtoPlanar2x2
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testoverlay2.exe : fatal error LNK1120: 42 unresolved externals

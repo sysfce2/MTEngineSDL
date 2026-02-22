@@ -1,0 +1,16 @@
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_assert.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_assert.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_common.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_common.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_compare.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_compare.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_crc32.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_crc32.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_font.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_font.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_fuzzer.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_fuzzer.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_harness.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_harness.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_imageBlit.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_imageBlit.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_imageBlitBlend.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_imageBlitBlend.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_imageFace.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_imageFace.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_imagePrimitives.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_imagePrimitives.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_imagePrimitivesBlend.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_imagePrimitivesBlend.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_log.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_log.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_md5.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_md5.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_memory.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_memory.obj
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\src\test\SDL_test_random.c;C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\SDLtest\x64\Debug\SDL_test_random.obj

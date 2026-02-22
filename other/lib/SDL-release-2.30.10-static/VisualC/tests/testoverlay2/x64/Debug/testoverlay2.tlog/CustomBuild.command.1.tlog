@@ -1,0 +1,2 @@
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\MOOSE.DAT
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\moose.dat" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\testoverlay2\\"

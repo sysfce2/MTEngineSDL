@@ -1,0 +1,31 @@
+﻿  testrumble.c
+testrumble.obj : error LNK2019: unresolved external symbol SDL_isdigit referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testrumble.obj : error LNK2019: unresolved external symbol SDL_strstr referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_ClearError referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_NumHaptics referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticName referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticOpen referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticClose referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticRumbleSupported referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticRumbleInit referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticRumblePlay referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_HapticRumbleStop referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+testrumble.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_free referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testrumble.exe : fatal error LNK1120: 27 unresolved externals

@@ -1,0 +1,172 @@
+﻿  testgles2.c
+testgles2.obj : error LNK2019: unresolved external symbol SDL_calloc referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_calloc
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_calloc
+testgles2.obj : error LNK2019: unresolved external symbol SDL_free referenced in function quit
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+testgles2.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_atoi
+testgles2.obj : error LNK2019: unresolved external symbol SDL_strcasecmp referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_strcasecmp
+testgles2.obj : error LNK2019: unresolved external symbol SDL_cosf referenced in function rotate_matrix
+testgles2.obj : error LNK2019: unresolved external symbol SDL_sinf referenced in function rotate_matrix
+testgles2.obj : error LNK2019: unresolved external symbol SDL_sqrt referenced in function rotate_matrix
+testgles2.obj : error LNK2019: unresolved external symbol SDL_tanf referenced in function perspective_matrix
+testgles2.obj : error LNK2019: unresolved external symbol SDL_SetError referenced in function LoadContext
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetError
+testgles2.obj : error LNK2019: unresolved external symbol SDL_CreateThread referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_WaitThread referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GetCurrentDisplayMode referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetCurrentDisplayMode
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GetWindowFromID referenced in function loop_threaded
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_GetWindowFromID
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_GetProcAddress referenced in function LoadContext
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_GetAttribute referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_MakeCurrent referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_GetDrawableSize referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_SetSwapInterval referenced in function SDL_main
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function render_window
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function quit
+testgles2.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function loop
+testgles2.obj : error LNK2019: unresolved external symbol SDL_WaitEvent referenced in function loop_threaded
+testgles2.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2001: unresolved external symbol SDL_Log
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_Log
+testgles2.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_isdigit referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_memset referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_memset
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_strlen referenced in function SDL_snprintfcat
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_strlcpy referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlcpy
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_strlcat referenced in function BuildCommonUsageString
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_strlcat
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_atof referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_snprintf referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_memory.obj) : error LNK2001: unresolved external symbol SDL_snprintf
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_vsnprintf referenced in function SDL_snprintfcat
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_vsnprintf
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Error referenced in function SDLTest_CommonCreateState
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function SDLTest_LoadIcon
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumAudioDrivers referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetAudioDriver referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_AudioInit referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_AudioQuit referenced in function SDLTest_CommonQuit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetCurrentAudioDriver referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_OpenAudio referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetClipboardText referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetClipboardText referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetPixelFormatName referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_PixelFormatEnumToMasks referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function SDLTest_ScreenShot
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_FreeSurface
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function SDLTest_LoadIcon
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SaveBMP_RW referenced in function SDLTest_ScreenShot
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function SDLTest_LoadIcon
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumVideoDrivers referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetVideoDriver referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_VideoInit referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_VideoQuit referenced in function SDLTest_CommonQuit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetCurrentVideoDriver referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumVideoDisplays referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayName referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayBounds referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayUsableBounds referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayDPI referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayOrientation referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumDisplayModes referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDisplayMode referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetDesktopDisplayMode referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowDisplayIndex referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowDisplayMode referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowDisplayMode referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowFlags referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowIcon referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowPosition referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowPosition referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowSize referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowSize referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowMinimumSize referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowMaximumSize referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowBordered referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowAlwaysOnTop referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_ShowWindow referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_MaximizeWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_MinimizeWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RestoreWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowFullscreen referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowGrab referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowKeyboardGrab referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowGrab referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowKeyboardGrab referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowMouseRect referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowOpacity referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetWindowOpacity referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetWindowHitTest referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_FlashWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetKeyboardFocus referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetModState referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetScancodeName referenced in function SDLTest_PrintEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetKeyName referenced in function SDLTest_PrintEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetGlobalMouseState referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetRelativeMouseMode referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CaptureMouse referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRelativeMouseMode referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetHint referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_LogSetAllPriority referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDLTest_CommonArg
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function SDLTest_CommonEvent
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_ShowSimpleMessageBox
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetNumRenderDrivers referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRenderDriverInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRendererInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_GetRendererOutputSize referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetLogicalSize referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetLogicalSize referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetViewport referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetClipRect referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetClipRect referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderSetScale referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderGetScale referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDLTest_CommonDrawWindowInfo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_RenderReadPixels referenced in function SDLTest_ScreenShot
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_font.obj) : error LNK2001: unresolved external symbol SDL_DestroyTexture
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function SDLTest_CommonEvent
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Direct3D9GetAdapterIndex referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_DXGIGetOutputInfo referenced in function SDLTest_CommonInit
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Delay referenced in function FullscreenTo
+SDL2test.lib(SDL_test_common.obj) : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDLTest_CommonQuit
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_malloc referenced in function SDLTest_TextWindowCreate
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_realloc referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function SDLTest_TextWindowAddTextWithLength
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_memcpy
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_GetRenderDrawColor referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_font.obj) : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function SDLTest_DrawCharacter
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_GetMemoryFunctions referenced in function SDLTest_TrackAllocations
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_SetMemoryFunctions referenced in function SDLTest_TrackAllocations
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_GetNumAllocations referenced in function SDLTest_TrackAllocations
+SDL2test.lib(SDL_test_memory.obj) : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function SDLTest_TrackedRealloc
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testgles2.exe : fatal error LNK1120: 144 unresolved externals

@@ -1,0 +1,93 @@
+﻿  Copying axis.bmp
+          1 file(s) copied.
+  Copying button.bmp
+          1 file(s) copied.
+  Copying controllermap.bmp
+          1 file(s) copied.
+  Copying controllermap_back.bmp
+          1 file(s) copied.
+  controllermap.c
+  testutils.c
+  Generating Code...
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GetPlatform referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_calloc referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_free referenced in function WatchJoystick
+testutils.obj : error LNK2001: unresolved external symbol SDL_free
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_free
+controllermap.obj : error LNK2019: unresolved external symbol SDL_abs referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_isspace referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function SetCurrentBinding
+controllermap.obj : error LNK2019: unresolved external symbol SDL_memmove referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_memcmp referenced in function BBindingContainsBinding
+controllermap.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function WatchJoystick
+testutils.obj : error LNK2001: unresolved external symbol SDL_strlen
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+controllermap.obj : error LNK2019: unresolved external symbol SDL_strlcpy referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_strlcat referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_strchr referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_atoi referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_strcmp referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function WatchJoystick
+testutils.obj : error LNK2001: unresolved external symbol SDL_snprintf
+controllermap.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_GetError
+controllermap.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RaiseWindow referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_NumJoysticks referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickNameForIndex referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickOpen referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickName referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickGetGUID referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickGetVendor referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickGetProduct referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickGetGUIDString referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GetJoystickGUIDInfo referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickInstanceID referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickNumAxes referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickNumBalls referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickNumHats referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickNumButtons referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickGetAxisInitialState referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_JoystickClose referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetStringForAxis referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GameControllerGetStringForButton referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_SetHint referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_LogError referenced in function SDL_main
+testutils.obj : error LNK2001: unresolved external symbol SDL_LogError
+controllermap.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RenderSetLogicalSize referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function ConfigureBinding
+controllermap.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function WatchJoystick
+controllermap.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+controllermap.obj : error LNK2019: unresolved external symbol SDL_QuitSubSystem referenced in function SDL_main
+testutils.obj : error LNK2019: unresolved external symbol SDL_malloc referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_strdup referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_Error referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_RWclose referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function LoadTexture
+testutils.obj : error LNK2019: unresolved external symbol SDL_GetBasePath referenced in function GetNearbyFilename
+testutils.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function LoadTexture
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\controllermap.exe : fatal error LNK1120: 73 unresolved externals

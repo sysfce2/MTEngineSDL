@@ -1,0 +1,35 @@
+﻿  testatomic.c
+testatomic.obj : error LNK2019: unresolved external symbol SDL_getenv referenced in function SDL_main
+testatomic.obj : error LNK2019: unresolved external symbol SDL_memset referenced in function RunFIFOTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_strlen referenced in function RunFIFOTest
+SDL2main.lib(SDL_windows_main.obj) : error LNK2001: unresolved external symbol SDL_strlen
+testatomic.obj : error LNK2019: unresolved external symbol SDL_snprintf referenced in function RunFIFOTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_ReportAssertion referenced in function RunEpicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicLock referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicUnlock referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicCAS referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicSet referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicGet referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_AtomicAdd referenced in function RunBasicTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_CreateMutex referenced in function RunFIFOTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_LockMutex referenced in function EnqueueEvent_Mutex
+testatomic.obj : error LNK2019: unresolved external symbol SDL_UnlockMutex referenced in function EnqueueEvent_Mutex
+testatomic.obj : error LNK2019: unresolved external symbol SDL_DestroyMutex referenced in function RunFIFOTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_CreateSemaphore referenced in function runAdder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_DestroySemaphore referenced in function runAdder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_SemWait referenced in function runAdder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_SemPost referenced in function adder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_CreateThread referenced in function runAdder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_WaitThread referenced in function RunFIFOTest
+testatomic.obj : error LNK2019: unresolved external symbol SDL_LogSetPriority referenced in function SDL_main
+testatomic.obj : error LNK2019: unresolved external symbol SDL_Log referenced in function SDL_main
+testatomic.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function runAdder
+testatomic.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function FIFO_Writer
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_free referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_memcpy referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_wcslen referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_iconv_string referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_SetMainReady referenced in function main_getcmdline
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol SDL_ShowSimpleMessageBox referenced in function OutOfMemory
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\ARM64\Debug\SDL2.lib : warning LNK4272: library machine type 'ARM64' conflicts with target machine type 'x64'
+C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\x64\Debug\testatomic.exe : fatal error LNK1120: 31 unresolved externals

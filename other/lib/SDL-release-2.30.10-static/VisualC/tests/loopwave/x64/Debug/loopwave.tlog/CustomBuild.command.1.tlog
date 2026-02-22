@@ -1,0 +1,2 @@
+^C:\DEVELOP\MTENGINESDL\OTHER\LIB\SDL-RELEASE-2.30.10-STATIC\TEST\SAMPLE.WAV
+copy "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\test\sample.wav" "C:\develop\MTEngineSDL\other\lib\SDL-release-2.30.10-static\VisualC\tests\loopwave\\"
